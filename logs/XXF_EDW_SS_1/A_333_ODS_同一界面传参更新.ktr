@@ -1,0 +1,3761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>本页面传参</name>
+    <description/>
+    <extended_description/>
+    <trans_version/>
+    <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
+    <directory>/</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection/>
+      <table/>
+      <field/>
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file/>
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2019/05/20 20:41:23.530</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2019/05/20 20:41:23.530</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <connection>
+    <name>172.16.2.229_sisyphe_ods</name>
+    <server>172.16.2.229</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>sisyphe_ods</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>192.168.21.44_sisyphe_ods</name>
+    <server>192.168.21.44</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>sisyphe_ods</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>logsystem_192.168.21.47</name>
+    <server>192.168.21.83</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>logsystem</database>
+    <port>3306</port>
+    <username>e_tlx</username>
+    <password>Encrypted 67515074daade2ac13e5a3a68003fa5df1a5fbee</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.defaultFetchSize</code>
+        <attribute>500</attribute>
+      </attribute>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.useCursorFetch</code>
+        <attribute>true</attribute>
+      </attribute>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.useSSL</code>
+        <attribute>false</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <order>
+    <hop>
+      <from>askcard_db_储值卡交易记录</from>
+      <to>askcard_db_trade_record</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>askcard_db_储值卡充值冲减记录</from>
+      <to>askcard_db_offset_recharge</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>askcard_db_卡信息</from>
+      <to>askcard_db_card_info</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>askcard_db_支付明细</from>
+      <to>askcard_db_pay_detail</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>askcard_db_消费冲减记录</from>
+      <to>askcard_db_offset_consume</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>coffee_baseinfo_v2_产品分类数据表_全量</from>
+      <to>coffee_baseinfo_v2_product_type</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>coffee_baseinfo_v2_供应商数据表_全量</from>
+      <to>coffee_baseinfo_v2_supplier</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>coffee_baseinfo_v2_区域数据表_全量</from>
+      <to>coffee_baseinfo_v2_large_area</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>coffee_baseinfo_v2_原料数据表_全量</from>
+      <to>coffee_baseinfo_v2_raw_material</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>coffee_baseinfo_v2_原料类型数据表_全量</from>
+      <to>coffee_baseinfo_v2_raw_material_type</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>coffee_baseinfo_v2_城市数据表_全量</from>
+      <to>coffee_baseinfo_v2_city</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>coffee_bill_进货单</from>
+      <to>coffee_bill_purchase_bill</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>coffee_report_咖啡每日销售记录</from>
+      <to>coffee_report_daily_sale_record</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>coffee_report_咖啡销售日志表</from>
+      <to>coffee_report_daily_report</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>coffee_stock_冲减明细表</from>
+      <to>coffee_stock_offset</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>logsystem_周日志内容主表</from>
+      <to>logsystem_infonote</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>logsystem_周日志字段内容表_全量S</from>
+      <to>logsystem_infovalue</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>logsystem_门店基本信息表_全量</from>
+      <to>logsystem_store</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>member_database_交易信息表</from>
+      <to>member_database_trade_record</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>member_database_会员个人信息</from>
+      <to>member_database_personal_info</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>member_database_会员办理统计表</from>
+      <to>member_database_member_statistics</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>member_database_会员积分</from>
+      <to>member_database_member_integral</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入</from>
+      <to>member_database_会员积分</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2</from>
+      <to>askcard_db_卡信息</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2 2</from>
+      <to>askcard_db_消费冲减记录</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2 2 2</from>
+      <to>askcard_db_储值卡充值冲减记录</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2 2 2 2</from>
+      <to>askcard_db_支付明细</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2 2 2 2 2</from>
+      <to>coffee_bill_进货单</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2 2 2 2 2 3</from>
+      <to>coffee_stock_冲减明细表</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2 2 2 2 3</from>
+      <to>coffee_report_咖啡每日销售记录</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2 2 2 3</from>
+      <to>askcard_db_储值卡交易记录</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2 2 2 4</from>
+      <to>coffee_report_咖啡销售日志表</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2a 2</from>
+      <to>coffee_baseinfo_v2_城市数据表_全量</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2a 2 2</from>
+      <to>coffee_baseinfo_v2_区域数据表_全量</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2a 2 2 2</from>
+      <to>coffee_baseinfo_v2_产品分类数据表_全量</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2a 2 2 2 2 2 2 2</from>
+      <to>coffee_baseinfo_v2_供应商数据表_全量</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2a 2 2 2 2 2 2 2 2</from>
+      <to>logsystem_周日志内容主表</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2a 2 2 2 2 2 2 2 2 2</from>
+      <to>logsystem_周日志字段内容表_全量S</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>表输入 2a 2 2 2 2 2 2 2 2 2 2</from>
+      <to>logsystem_门店基本信息表_全量</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>表输入 3</from>
+      <to>member_database_会员办理统计表</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 3 2</from>
+      <to>member_database_会员个人信息</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>表输入 3 2 2</from>
+      <to>member_database_交易信息表</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>member_database_交易信息表 2</from>
+      <to>删除member_database_trade_record与源端冲突的trade_id</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>表输入 3 2 2 2</from>
+      <to>member_database_交易信息表 2</to>
+      <enabled>N</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>askcard_db_card_info</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>askcard_db_card_info</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>askcard_db_offset_consume</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_sisyphe_ods</connection>
+    <schema/>
+    <table>askcard_db_offset_consume</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>askcard_db_offset_recharge</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>askcard_db_offset_recharge</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>askcard_db_pay_detail</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>askcard_db_pay_detail</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>336</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>askcard_db_trade_record</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_sisyphe_ods</connection>
+    <schema/>
+    <table>askcard_db_trade_record</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>416</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>askcard_db_储值卡交易记录</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+trade_id
+,create_time
+,update_time
+,version
+,balance
+,batch_record_number
+,discount
+,in_out_flag
+,memo
+,operator_code
+,pay_amount
+,source_id
+,station_code
+,status
+,trade_amount
+,trade_code
+,trade_number
+,trade_type
+,card_id
+,parent_id
+,host_name
+,terminal_trade_id
+,batch_trade_number
+,card_number
+,parent_trade_number
+,settle_number
+,sync_identity
+FROM askcard_db.trade_record
+where trade_id>? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 2 2 2 3</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>416</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>askcard_db_储值卡充值冲减记录</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT
+offset_recharge_id
+,create_time
+,update_time
+,version
+,card_number
+,offset_recharge_amount
+,offset_recharge_balance
+,offset_recharge_discount
+,trade_number
+FROM askcard_db.offset_recharge
+where offset_recharge_id>? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 2 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>askcard_db_卡信息</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+card_id
+,create_time
+,update_time
+,version
+,account_number
+,balance
+,batch_number
+,card_class
+,card_number
+,check_code
+,end_time
+,member_id
+,memo
+,operator_code
+,password
+,status
+,card_area
+,sync_identity
+FROM askcard_db.card_info
+where card_id>? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>askcard_db_支付明细</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+pay_id
+,pay_amount
+,pay_method_id
+,pay_order_number
+,trade_id
+,pay_method_name
+FROM askcard_db.pay_detail
+where pay_id>?</sql>
+    <limit>0</limit>
+    <lookup>表输入 2 2 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>336</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>askcard_db_消费冲减记录</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+offset_consume_id
+,create_time
+,update_time
+,version
+,card_number
+,offset_actual_amount
+,offset_consume_amount
+,offset_consume_discount
+,offset_recharge_id
+,trade_number
+FROM askcard_db.offset_consume
+where offset_consume_id>? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>Y</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_city</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_baseinfo_v2_city</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>1360</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_large_area</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_baseinfo_v2_large_area</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>1440</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_product_type</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_baseinfo_v2_product_type</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>1520</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_raw_material</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_baseinfo_v2_raw_material</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>1600</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_raw_material_type</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_baseinfo_v2_raw_material_type</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>1680</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_supplier</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_baseinfo_v2_supplier</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>1840</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_产品分类数据表_全量</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+id
+,create_time
+,logic_status
+,update_time
+,version
+,level
+,memo
+,product_type_code
+,product_type_name
+,status
+,parent_id
+FROM coffee_baseinfo_v2.product_type
+where id>?</sql>
+    <limit>0</limit>
+    <lookup>表输入 2a 2 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>1520</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_供应商数据表_全量</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+supplier_id
+,create_time
+,logic_status
+,update_time
+,version
+,abbreviation
+,account_day
+,cooperate_way_code
+,cooperate_way_memo
+,debt_max_day
+,level_code
+,memo
+,stop_day
+,supplier_code
+,supplier_name
+,supplier_status
+FROM coffee_baseinfo_v2.supplier
+where supplier_id>?</sql>
+    <limit>0</limit>
+    <lookup>表输入 2a 2 2 2 2 2 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>1840</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_区域数据表_全量</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+large_area_id
+,create_time
+,logic_status
+,update_time
+,version
+,large_area_code
+,large_area_name
+,large_area_type
+,serial_number
+FROM coffee_baseinfo_v2.large_area
+where large_area_id>?</sql>
+    <limit>0</limit>
+    <lookup>表输入 2a 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>1440</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_原料数据表_全量</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+id
+,create_time
+,logic_status
+,update_time
+,version
+,code
+,name
+,create_source_enum
+,memo
+,operator_code
+,operator_name
+,status
+,material_minimum_stand_id
+,material_type_code
+FROM coffee_baseinfo_v2.raw_material
+</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>1600</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_原料类型数据表_全量</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+id
+,create_time
+,logic_status
+,update_time
+,version
+,id_path
+,level
+,material_type_code
+,material_type_name
+,memo
+,operator_code
+,operator_name
+,parent_id
+FROM coffee_baseinfo_v2.raw_material_type
+</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>1680</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_baseinfo_v2_城市数据表_全量</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+city_id
+,create_time
+,logic_status
+,update_time
+,version
+,city_code
+,city_name
+,region_code
+FROM coffee_baseinfo_v2.city
+where city_id>?</sql>
+    <limit>0</limit>
+    <lookup>表输入 2a 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>1360</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_bill_purchase_bill</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_bill_purchase_bill</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>880</xloc>
+      <yloc>528</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_bill_进货单</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+bill_id
+,create_time
+,update_time
+,version
+,allot_status
+,audit_memo
+,audit_person_code
+,audit_state
+,basic_enum
+,belong_station_code
+,bill_code
+,bill_purpose
+,bill_state
+,bill_type
+,in_station_code
+,in_storage_code
+,out_station_code
+,out_storage_code
+,supplier_code
+,error_message
+,in_or_out_state
+,in_ware_house_time
+,memo
+,operator_code
+,out_storage_memo
+,out_ware_house_time
+,plan_memo
+,root_code
+,source_bill_type
+,source_code
+,specific_bill_type
+,submit_state
+,total_amount
+,total_variety_amount
+,actual_amount
+,difference_money
+,freight_code
+,purchase_real_money
+,shipped_amount
+,valid
+FROM coffee_bill.purchase_bill
+where bill_id>? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 2 2 2 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>528</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_report_daily_report</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_report_daily_report</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>624</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_report_daily_sale_record</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_report_daily_sale_record</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>704</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_report_咖啡每日销售记录</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+id
+,create_time
+,update_time
+,version
+,askcard_consume_money
+,closing_rate
+,deal_amount
+,not_reading_card_consume_money
+,passenger_flow_statistics
+,per_customer_count
+,per_customer_transaction
+,product_count
+,pure_real_money_sale
+,reading_card_consume_money
+,reading_card_recharge_money
+,reading_card_recharge_real_money
+,real_money_sale
+,real_total_sale
+,whole_store_money
+,day_real_money_sale
+,daily_report_id
+,month_task_sale
+FROM coffee_report.daily_sale_record
+where id > ? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 2 2 2 2 3</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>704</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_report_咖啡销售日志表</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>SELECT 
+id
+,create_time
+,update_time
+,version
+,operator_code
+,report_code
+,report_name
+,report_status_value
+,station_code
+,update_operator
+,abnormal_quota_and_reason
+,closing_time
+,done_work_deliver_description
+,not_done_work_deliver_description
+,open_time
+,report_date
+,training_plan
+,weather
+,working_plan_tomorrow
+FROM coffee_report.daily_report
+where id>? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 2 2 2 4</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>624</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_stock_offset</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_sisyphe_ods</connection>
+    <schema/>
+    <table>coffee_stock_offset</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>816</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>coffee_stock_冲减明细表</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>select
+offset_id
+,create_time
+,update_time
+,version
+,batch_code
+,cargo_code
+,expiration_time
+,in_out_storage
+,in_station_code
+,in_storage_code
+,inventory_total_amount
+,measurement
+,offset_amount
+,out_station_code
+,out_storage_code
+,raw_material_code
+,source_bill_type
+,source_code
+,station_code
+,storage_code
+,surplus_amount
+,total_offset_amount
+,unit_cost
+,product_code
+,specific_bill_type
+from coffee_stock.offset
+where offset_id>? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 2 2 2 2 2 3</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>816</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>logsystem_infonote</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>logsystem_infonote</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>1936</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>logsystem_infovalue</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_sisyphe_ods</connection>
+    <schema/>
+    <table>logsystem_infovalue</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>2112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>logsystem_store</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>logsystem_store</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>2016</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>logsystem_周日志内容主表</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>select
+info_id
+,record_date
+,creator
+,tableoption_id
+,station_id
+,info_state
+from logsystem.infonote
+where info_id>?</sql>
+    <limit>0</limit>
+    <lookup>表输入 2a 2 2 2 2 2 2 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>1936</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>logsystem_周日志字段内容表_全量S</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>select
+info_value_id
+,info_value
+,field_id
+,info_id
+from logsystem.infovalue
+where info_value_id>?</sql>
+    <limit>0</limit>
+    <lookup>表输入 2a 2 2 2 2 2 2 2 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>2112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>logsystem_门店基本信息表_全量</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>select
+store_id
+,store_number
+,store_name
+,store_address
+,store_state
+,create_time
+,creator
+from logsystem.store
+where store_id>?</sql>
+    <limit>0</limit>
+    <lookup>表输入 2a 2 2 2 2 2 2 2 2 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>2016</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>member_database_member_integral</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>member_database_member_integral</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>912</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>member_database_member_statistics</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>member_database_member_statistics</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>928</xloc>
+      <yloc>1024</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>member_database_personal_info</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>member_database_personal_info</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>928</xloc>
+      <yloc>1104</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>member_database_trade_record</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <schema/>
+    <table>member_database_trade_record</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>928</xloc>
+      <yloc>1200</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>member_database_交易信息表</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>select
+trade_id
+,create_time
+,update_time
+,version
+,batch_record_number
+,in_out_flag
+,member_card_number
+,memo
+,operator_code
+,pay_amount
+,station_code
+,trade_amount
+,trade_number
+,trade_type
+,member_code
+,status
+from member_database.trade_record
+where update_time>? and date_format(update_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 3 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>1200</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>member_database_交易信息表 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>select
+trade_id
+,create_time
+,update_time
+,version
+,batch_record_number
+,in_out_flag
+,member_card_number
+,memo
+,operator_code
+,pay_amount
+,station_code
+,trade_amount
+,trade_number
+,trade_type
+,member_code
+,status
+from member_database.trade_record
+where update_time>? and date_format(update_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 3 2 2 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>1280</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>member_database_会员个人信息</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>select
+personal_info_id
+,birthday
+,id_number
+,nationality
+,passport_number
+,member_info_member_code
+from member_database.personal_info
+where personal_info_id>? and date_format(birthday, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 3 2</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>1104</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>member_database_会员办理统计表</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>select
+statistics_id
+,create_time
+,update_time
+,version
+,alipay
+,bank
+,cash
+,member_card_code
+,member_code
+,memo
+,operator_code
+,operator_type
+,register_station
+,register_type
+,we_chat
+,statistics_code
+,trade_number
+,member_integral
+,source_card_code
+from member_database.member_statistics
+where statistics_id>? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入 3</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>1024</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>member_database_会员积分</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>logsystem_192.168.21.47</connection>
+    <sql>select
+integral_id
+,create_time
+,update_time
+,version
+,account_number
+,integral_total
+,member_code
+from member_database.member_integral
+where integral_id>? and date_format(create_time, '%Y-%m-%d')&lt;DATE_SUB(curdate(),INTERVAL 0 DAY)</sql>
+    <limit>0</limit>
+    <lookup>表输入</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>656</xloc>
+      <yloc>912</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>删除member_database_trade_record与源端冲突的trade_id</name>
+    <type>ExecSQL</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <execute_each_row>Y</execute_each_row>
+    <single_statement>N</single_statement>
+    <replace_variables>Y</replace_variables>
+    <quoteString>N</quoteString>
+    <sql>delete from sisyphe_ods.member_database_trade_record where trade_id in (?)</sql>
+    <set_params>N</set_params>
+    <insert_field/>
+    <update_field/>
+    <delete_field/>
+    <read_field/>
+    <arguments>
+      <argument>
+        <name>trade_id</name>
+      </argument>
+    </arguments>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>944</xloc>
+      <yloc>1280</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+integral_id
+FROM member_database_member_integral
+union all
+select 0 as a
+order by integral_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>912</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+card_id
+FROM sisyphe_ods.askcard_db_card_info
+union all
+select 0 as a
+order by card_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_sisyphe_ods</connection>
+    <sql>SELECT 
+offset_consume_id
+FROM askcard_db_offset_consume
+union all
+select 0 as a
+order by offset_consume_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT 
+offset_recharge_id
+FROM askcard_db_offset_recharge
+union all
+select 0 as a
+order by offset_recharge_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2 2 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+pay_id
+FROM askcard_db_pay_detail
+union all
+select 0 as a
+order by pay_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>336</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2 2 2 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+bill_id
+FROM coffee_bill_purchase_bill
+union all
+select 0 as a
+order by bill_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>528</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2 2 2 2 2 3</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_sisyphe_ods</connection>
+    <sql>SELECT
+offset_id
+FROM coffee_stock_offset
+union all
+select 0 as a
+order by offset_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>816</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2 2 2 2 3</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+id
+FROM coffee_report_daily_sale_record
+union all
+select 0 as a
+order by id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>704</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2 2 2 3</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_sisyphe_ods</connection>
+    <sql>SELECT
+trade_id
+FROM askcard_db_trade_record
+union all
+select 0 as a
+order by trade_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>416</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2 2 2 4</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+id
+FROM coffee_report_daily_report
+union all
+select 0 as a
+order by id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>624</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2a 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+city_id
+FROM sisyphe_ods.coffee_baseinfo_v2_city
+union all
+select 0 as a
+order by city_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>1360</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2a 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+large_area_id
+FROM sisyphe_ods.coffee_baseinfo_v2_large_area
+union all
+select 0 as a
+order by large_area_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>1440</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2a 2 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+id
+FROM sisyphe_ods.coffee_baseinfo_v2_product_type
+union all
+select 0 as a
+order by id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>1520</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2a 2 2 2 2 2 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+supplier_id
+FROM sisyphe_ods.coffee_baseinfo_v2_supplier
+union all
+select 0 as a
+order by supplier_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>1840</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2a 2 2 2 2 2 2 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+info_id
+FROM sisyphe_ods.logsystem_infonote
+union all
+select 0 as a
+order by info_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>1936</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2a 2 2 2 2 2 2 2 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_sisyphe_ods</connection>
+    <sql>SELECT
+info_value_id
+FROM sisyphe_ods.logsystem_infovalue
+union all
+select 0 as a
+order by info_value_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>2112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 2a 2 2 2 2 2 2 2 2 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+store_id
+FROM sisyphe_ods.logsystem_store
+union all
+select 0 as a
+order by store_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>2016</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 3</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+statistics_id
+FROM member_database_member_statistics
+union all
+select 0 as a
+order by statistics_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>1024</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 3 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+personal_info_id
+FROM member_database_personal_info
+union all
+select 0 as a
+order by personal_info_id desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>1104</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 3 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+update_time
+FROM sisyphe_ods.member_database_trade_record
+union all
+select '2017-10-31 18:55:59' as a
+order by update_time desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>1200</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输入 3 2 2 2</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_sisyphe_ods</connection>
+    <sql>SELECT
+update_time
+FROM sisyphe_ods.member_database_trade_record
+union all
+select '2017-10-30 18:55:59' as a
+order by update_time desc
+limit 0,1</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>1280</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+  <attributes/>
+</transformation>

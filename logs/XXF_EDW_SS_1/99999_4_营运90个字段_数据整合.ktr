@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transformation>
+  <info>
+    <name>7数据整合</name>
+    <description/>
+    <extended_description/>
+    <trans_version/>
+    <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
+    <directory>/</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject/>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject/>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection/>
+      <table/>
+      <field/>
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file/>
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2019/03/16 16:20:54.952</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2019/03/16 16:20:54.952</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <connection>
+    <name>172.16.2.229_sisyphe_edw</name>
+    <server>172.16.2.229</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>sisyphe_edw</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>172.16.2.229_XXF_EDW</name>
+    <server>172.16.2.229</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>XXF_EDW</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>192.168.21.44_sisyphe_dm</name>
+    <server>192.168.21.44</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>sisyphe_dm</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>192.168.21.44_sisyphe_edw</name>
+    <server>192.168.21.44</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>sisyphe_edw</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>192.168.21.44_sisyphe_ods</name>
+    <server>192.168.21.44</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>sisyphe_ods</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>192.168.21.44_XXF_EDW</name>
+    <server>192.168.21.44</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>XXF_EDW</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>logsystem_192.168.21.47</name>
+    <server>192.168.21.47</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>logsystem</database>
+    <port>3306</port>
+    <username>e_tlx</username>
+    <password>Encrypted 67515074daade2ac13e5a3a68003fa5df1a5fbee</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.defaultFetchSize</code>
+        <attribute>500</attribute>
+      </attribute>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.useCursorFetch</code>
+        <attribute>true</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <order>
+    <hop>
+      <from>待删除_表输入</from>
+      <to>表输出</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>表单输出</from>
+      <to>表单输出 2</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>待删除_表输入</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_XXF_EDW</connection>
+    <sql>select a.*,b.`01实洋`,b.`02实洋`,b.`03实洋`,b.`04实洋`,b.`05实洋`,b.`06实洋`,b.`07实洋`,b.`08实洋`,b.`09实洋`,b.`10实洋`,b.`11实洋`,
+b.`12实洋`,b.`13实洋`,b.`14实洋`,b.`15实洋`,b.`21实洋`,b.`纯零售实洋+卡提货实洋(不二)`,b.`纯零售实洋+卡提货实洋(少儿)`,b.`纯零售+卡提货实洋(类别)`,b.`纯零售+卡提货实洋(类别不含少儿)`
+,c.`销售码洋(少儿)`,c.`销售码洋(不二)`,c.`销售码洋(类别)`,c.`销售码洋(类别不含少儿)`
+,c.`销售册数(少儿)`,c.`销售册数(不二)`,c.`销售册数(类别)`,c.`销售册数(类别不含少儿)`
+,d.`交易笔数(少儿)`,d.`交易笔数(不二)`,d.`交易笔数(类别)`,d.`交易笔数(类别不含少儿)`
+,e.`新增会员数(书店)`,ee.`新增会员数(咖啡)`,f.零售阅读卡提货,f.阅读卡售卡实洋,g.充值卡数量,g.用卡消费笔数量
+,h.`收费新增会员数(书店)`,i.`收费新增会员数(咖啡)`,j.贵宾卡实洋
+from xxf_Operation a
+left join
+                  (
+select '书店' as 类别,a.支付日期,substring_index(b.新系统站点名称,"_",1) as 新系统站点名称,b.新系统站点ID,'一级类别' as 类型
+,a.`01实洋`,a.`02实洋`,a.`03实洋`,a.`04实洋`,a.`05实洋`,a.`06实洋`,a.`07实洋`,a.`08实洋`,a.`09实洋`,a.`10实洋`,a.`11实洋`,
+a.`12实洋`,a.`13实洋`,a.`14实洋`,a.`15实洋`,a.`21实洋`,a.`纯零售实洋+卡提货实洋(不二)`,a.`纯零售实洋+卡提货实洋(少儿)`,a.`纯零售+卡提货实洋(类别)`,a.`纯零售+卡提货实洋(类别不含少儿)`
+ from(
+select * from cq_group_by
+union all
+select * from gz_group_by
+)a left join 区域维度表 b on a.站点ID=b.老系统站点ID
+)b
+on a.新系统站点名称=b.新系统站点名称 and a.操作时间=b.支付日期 and a.类别=b.类别
+left join
+         (
+select '书店' as 类别,a.操作时间,a.新系统站点名称,a.新系统站点ID
+,sum(a.`销售码洋(少儿)`)`销售码洋(少儿)`,sum(a.`销售码洋(不二)`)`销售码洋(不二)`,sum(a.`销售码洋(类别)`)`销售码洋(类别)`,sum(a.`销售码洋(类别不含少儿)`)`销售码洋(类别不含少儿)`
+,sum(a.`销售册数(少儿)`)`销售册数(少儿)`,sum(a.`销售册数(不二)`)`销售册数(不二)`,sum(a.`销售册数(类别)`)`销售册数(类别)`,sum(a.`销售册数(类别不含少儿)`)`销售册数(类别不含少儿)`
+from (
+select a.操作时间,substring_index(b.新系统站点名称,"_",1) 新系统站点名称,b.新系统站点ID,b.区域名称,
+case when 商品一级分类 = '01' then 码洋 else 0 end as '销售码洋(少儿)',
+case when 商品一级分类 = '13' then 码洋 else 0 end as '销售码洋(不二)',
+case when 商品一级分类 in ('01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '14', '15') then 码洋 else 0 end as '销售码洋(类别)',
+case when 商品一级分类 in ('02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '14', '15') then 码洋 else 0 end as '销售码洋(类别不含少儿)',
+case when 商品一级分类 in ('01') then 码洋 else 0 end as '销售册数(少儿)',
+case when 商品一级分类 in ('13') then 码洋 else 0 end as '销售册数(不二)',
+case when 商品一级分类 in ('01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '14', '15') then 码洋 else 0 end as '销售册数(类别)',
+case when 商品一级分类 in ('02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '14', '15') then 码洋 else 0 end as '销售册数(类别不含少儿)'
+  from (
+select * from cq_52_54_56_58
+union all
+select * from gz_52_54_56_58
+)a left join 区域维度表 b on a.站点编码=b.老系统站点ID
+)a group by a.操作时间,a.新系统站点名称,a.新系统站点ID
+)c
+on a.新系统站点名称=c.新系统站点名称 and a.操作时间=c.操作时间 and a.类别=c.类别 and a.新系统站点ID=c.新系统站点ID
+
+
+
+left join
+(
+select '书店' as 类别,a.零售时间,a.新系统站点名称,a.新系统站点ID
+,sum(a.`交易笔数(少儿)`)`交易笔数(少儿)`,sum(a.`交易笔数(不二)`)`交易笔数(不二)`,sum(a.`交易笔数(类别)`)`交易笔数(类别)`,sum(a.`交易笔数(类别不含少儿)`)`交易笔数(类别不含少儿)`
+from (
+select a.零售时间,substring_index(b.新系统站点名称,"_",1) 新系统站点名称,b.新系统站点ID,b.区域名称,
+case when 商品一级分类 = '01' then 会员交易数 else 0 end as '交易笔数(少儿)',
+case when 商品一级分类 = '13' then 会员交易数 else 0 end as '交易笔数(不二)',
+case when 商品一级分类 in ('01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '14', '15') then 会员交易数 else 0 end as '交易笔数(类别)',
+case when 商品一级分类 in ('02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '14', '15') then 会员交易数 else 0 end as '交易笔数(类别不含少儿)'
+  from (
+select * from cq_Transaction_group_by
+union all
+select * from gz_Transaction_group_by
+)a left join 区域维度表 b on a.站点ID=b.老系统站点ID
+)a group by a.零售时间,a.新系统站点名称,a.新系统站点ID
+)d
+         on a.新系统站点名称=d.新系统站点名称 and a.操作时间=d.零售时间 and a.类别=d.类别 and a.新系统站点ID=d.新系统站点ID
+left join
+(select * from sd_Member_count a
+)e on a.新系统站点名称=e.操作站点 and a.操作时间=e.办理时间 and a.类别=e.业务类型 and a.新系统站点ID=e.站点ID
+left join
+(select * from cf_Member_count a
+)ee on a.新系统站点名称=ee.操作站点 and a.操作时间=ee.办理时间 and a.类别=ee.业务类型 and a.新系统站点ID=ee.站点ID
+left join
+         (
+             select a.操作时间,a.操作站点,a.站点ID,a.业务类型,
+sum(a.零售阅读卡提货)as 零售阅读卡提货,sum(a.阅读卡售卡实洋)as 阅读卡售卡实洋
+from (select a.操作时间,
+             a.操作站点,
+             a.站点ID,
+             a.业务类型,
+             case when 类型 = '零售阅读卡提货' then 实洋 else 0 end as 零售阅读卡提货,
+             case when 类型 = '阅读卡售卡实洋' then 实洋 else 0 end as 阅读卡售卡实洋
+      from retail_Reading a)a
+group by a.操作时间,a.操作站点,a.站点ID,a.业务类型
+             ) f
+         on a.新系统站点名称=f.操作站点 and a.操作时间=f.操作时间 and a.类别=f.业务类型 and a.新系统站点ID=f.站点ID
+left join
+(
+select a.操作日期,a.操作站点,a.站点ID,
+sum(a.充值卡数量)as 充值卡数量,sum(a.用卡消费笔数量)as 用卡消费笔数量
+from (select a.站点ID,a.操作站点,a.操作日期,a.类型,
+             case when 类型 = '充值卡数量' then 数量 else 0 end as 充值卡数量,
+             case when 类型 = '用卡消费笔数量' then 数量 else 0 end as 用卡消费笔数量
+             from Recharge_consumption_count a)a
+group by a.操作日期,a.操作站点,a.站点ID
+)g on a.新系统站点名称=g.操作站点 and a.操作时间=g.操作日期 and a.新系统站点ID=g.站点ID
+left join
+        (
+select a.支付日期,a.站点名称,a.业务类型,a.支付金额/10 as '收费新增会员数(书店)' from XXF_CW.cw_all_check_v a
+where 所属类别 ='会员卡' and a.业务类型 = '书店'
+)h on a.新系统站点名称=h.站点名称 and a.操作时间=h.支付日期 and a.类别=h.业务类型
+left join
+         (
+select a.支付日期, a.站点名称, a.业务类型,a.支付金额 / 10 as '收费新增会员数(咖啡)'
+from XXF_CW.cw_all_check_v a
+where 所属类别 = '会员卡'and a.业务类型 = '咖啡'
+         )i on a.新系统站点名称=i.站点名称 and a.操作时间=i.支付日期 and a.类别=i.业务类型
+ left join (
+select a.操作时间,a.操作站点,a.站点ID,a.业务类型,a.实洋 as '贵宾卡实洋'
+from gbk_xf_Money a
+         )j on a.新系统站点名称=j.操作站点 and a.操作时间=j.操作时间 and a.类别=j.业务类型 and a.新系统站点ID=j.站点ID</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>160</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表单输出</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_XXF_EDW</connection>
+    <sql>select
+a.类别,a.操作时间,a.区域名称,a.新系统站点名称,a.新系统站点ID,a.自然周,a.现金码洋,a.现金实洋,a.银行卡码洋
+    ,a.银行卡实洋,a.其他纯零售码洋,a.其他纯零售实洋,a.微信支付码洋,a.微信支付实洋,a.支付宝码洋,a.支付宝实洋
+    ,a.贵宾卡码洋,a.图礼赠券码洋,a.图礼赠券实洋,a.批销码洋,a.批销实洋
+    ,a.销售码洋,a.销售实洋,a.会员零售单据码洋,a.会员零售单据实洋,a.`销售册数(类别)`
+-- a.销售册数,a.会员销售册数,a.少儿销售册数,a.不二销售册数,a.`销售册数(类别不含少儿)`,a.会员交易,a.交易数
+,b.`销售码洋(少儿)`,b.`销售码洋(不二)`,b.`销售码洋(类别)`,b.`销售码洋(类别不含少儿与不二)`,b.`纯零售+卡提货实洋`,b.1分类,b.2分类,b.3分类,b.4分类,b.5分类,b.6分类,b.7分类,b.8分类,b.9分类,b.10分类,b.11分类,b.12分类,b.13分类,b.14分类,b.15分类,b.21分类
+-- ,c.`交易笔数(少儿)`,c.`交易笔数(不二)`
+,d.充值卡数量,d.用卡消费笔数量
+,e.储值卡码洋,e.储值卡实洋
+,f.`新增会员数(书店)`
+,g.零售阅读卡提货实洋,g.阅读卡售卡实洋实洋
+,h.*
+,i.交易笔数 as 交易笔数正确数据
+from (select * from xxf_Operation
+where 操作时间>  DATE_SUB(curdate(),INTERVAL +9 DAY)
+)a
+left join
+Sell_money_group_by b
+on a.操作时间=b.操作时间 and a.新系统站点ID=b.新系统站点ID and a.新系统站点名称=b.新系统站点名称
+left join (
+    select a.类别,a.零售时间,a.新系统站点名称,a.新系统站点ID,`交易笔数(少儿)`,`交易笔数(不二)`,sum(a.`交易笔数(类别不含少儿)`)`交易笔数(类别不含少儿)`
+    from(
+select a.类别,a.零售时间,a.新系统站点名称,a.新系统站点ID,count(*) as `交易笔数(类别不含少儿)`,'' as  `交易笔数(类别不含少儿与不二)`,sum(a.`1分类`) as `交易笔数(少儿)`,sum(a.`13分类`) as `交易笔数(不二)`
+from Transaction_count_group_by_not a
+where (a.`2分类` != 0 or a.`3分类` != 0 or a.`4分类` != 0 or a.`5分类` != 0 or a.`6分类` != 0 or a.`7分类` != 0
+or a.`8分类` != 0 or a.`9分类` != 0 or a.`10分类` != 0 or a.`11分类` != 0 or a.`12分类` != 0 or a.`13分类` != 0 or a.`14分类` != 0
+or a.`15分类` != 0 or a.`21分类` != 0)
+group by a.类别,a.零售时间,a.新系统站点名称,a.新系统站点ID
+union all
+select a.类别,a.零售时间,a.新系统站点名称,a.新系统站点ID,0 as 'a',count(*) as `交易笔数(类别不含少儿与不二)`,0 as 'a',0 as 'b'
+from Transaction_count_group_by_not a
+where (a.`2分类` != 0 or a.`3分类` != 0 or a.`4分类` != 0 or a.`5分类` != 0 or a.`6分类` != 0 or a.`7分类` != 0
+or a.`8分类` != 0 or a.`9分类` != 0 or a.`10分类` != 0 or a.`11分类` != 0 or a.`12分类` != 0 or a.`14分类` != 0
+or a.`15分类` != 0 or a.`21分类` != 0)
+group by a.类别,a.零售时间,a.新系统站点名称,a.新系统站点ID
+)a group by a.类别,a.零售时间,a.新系统站点名称,a.新系统站点ID
+)c on a.新系统站点名称=c.新系统站点名称 and a.新系统站点ID=c.新系统站点ID and a.操作时间=c.零售时间
+left join Recharge_consumption_count_S d
+on a.新系统站点名称=d.操作站点 and a.新系统站点ID=d.站点ID and a.操作时间=d.操作日期
+left join Stored_TotalMoney_RealMoney e
+on a.新系统站点名称=e.站点名称 and a.新系统站点ID=e.新系统站点ID and a.操作时间=e.操作时间
+left join sd_Member_count f
+on a.新系统站点名称=f.操作站点 and a.新系统站点ID=f.站点ID and a.操作时间=f.办理时间
+left join retail_Reading g
+on a.新系统站点名称=g.操作站点 and a.新系统站点ID=g.站点ID and a.操作时间=g.操作时间
+left join
+(
+select a.*,substring_index(b.新系统站点名称,"_",1)新系统站点名称a,b.新系统站点ID as 新系统站点ID_不用的 from(
+select * from cq_not_shaoer_buer
+union all
+select * from gz_not_shaoer_buer
+)a left join 区域维度表 b on a.站点ID=b.老系统站点ID
+    ) h
+on a.新系统站点名称=h.新系统站点名称a and a.新系统站点ID=h.新系统站点ID_不用的 and a.操作时间=h.操作日期
+left join
+(
+select a.操作日期,a.交易笔数,substring_index(b.新系统站点名称,"_",1)新系统站点名称,b.新系统站点ID as 新系统站点ID from(
+select * from cq_jy_count
+union all
+select * from gz_jy_count
+)a left join 区域维度表 b on a.站点ID=b.老系统站点ID
+    ) i on a.新系统站点名称=i.新系统站点名称 and a.新系统站点ID=i.新系统站点ID and a.操作时间=i.操作日期
+</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>560</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表单输出 2</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>192.168.21.44_XXF_EDW</connection>
+    <schema/>
+    <table>coffee_materiel_stock_group_by_S</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>N</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>Y</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>800</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>表输出</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>172.16.2.229_XXF_EDW</connection>
+    <schema/>
+    <table>coffee_materiel_stock_group_by</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>384</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+  <attributes/>
+</transformation>

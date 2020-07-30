@@ -50,6 +50,7 @@ object RegisterFunctions {
     //临时函数的功能是判断两个日期是否为同一天
     //示例如下
     //"2012/9/13 02:03:04", "2012/9/12 00:00:00"，该临时函数返回值为“false”
+    //"2012/9/13 02:03:04", "2012/9/13 00:00:00"，该临时函数返回值为“true”
     spark.sqlContext.udf.register("register_judge_day_equal", new UDF2[String, String, String]() {
       @throws[Exception]
       override def call(d1: String, d2: String): String =
