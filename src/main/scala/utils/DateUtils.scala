@@ -15,8 +15,6 @@ object DateUtils {
 
   def main(args: Array[String]): Unit = {
 
-
-    println(0 - 4400 - 11000 + 1176 + 1708 + 1871 - 11000 + 3503 + 4411 - 11000 + 4221 + 3756 - 15000 - 4268 - 19000 + 3633 + 545)
     println(judge_date_bigger("2020/06/12", "2020/06/15 10:58:39"))
 
     val list = get_date_range("2020/05/18 06:06:14", "2020/05/28 09:33:43")
