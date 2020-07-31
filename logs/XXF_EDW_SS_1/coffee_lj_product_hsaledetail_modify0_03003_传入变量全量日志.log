@@ -1,0 +1,402 @@
+#######################################################################
+WARNING:  no libwebkitgtk-1.0 detected, some features will be unavailable
+    Consider installing the package with apt-get or yum.
+    e.g. 'sudo apt-get install libwebkitgtk-1.0-0'
+#######################################################################
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=2560m; support was removed in 8.0
+12:19:49,221 INFO  [KarafBoot] Checking to see if org.pentaho.clean.karaf.cache is enabled
+12:19:49,319 INFO  [KarafInstance] 
+*******************************************************************************
+*** Karaf Instance Number: 1 at /usr/local/kettle/data-integration/./system ***
+***   /karaf/caches/pan/data-1                                              ***
+*** FastBin Provider Port:52901                                             ***
+*** Karaf Port:8802                                                         ***
+*** OSGI Service Port:9051                                                  ***
+*******************************************************************************
+十二月 24, 2019 12:19:50 下午 org.apache.karaf.main.Main$KarafLockCallback lockAquired
+信息: Lock acquired. Setting startlevel to 100
+/usr/local/kettle8.2/data-integration/system/karaf/deploy does not exist, please create it.
+Root path does not exist: /usr/local/kettle8.2/data-integration/system/karaf/deploy
+2019-12-24 12:19:52.903:INFO:oejs.Server:jetty-8.1.15.v20140411
+2019-12-24 12:19:52.937:INFO:oejs.AbstractConnector:Started NIOSocketConnectorWrapper@0.0.0.0:9051
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/blueprint/core
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/configuration/beans
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/configuration/parameterized-types
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/configuration/security
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://schemas.xmlsoap.org/wsdl/
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://www.w3.org/2005/08/addressing
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://schemas.xmlsoap.org/ws/2004/08/addressing
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-management (195) [org.apache.cxf.management.InstrumentationManager]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-wsdl (198) [org.apache.cxf.wsdl.WSDLManager]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-bindings-xml (200) [org.apache.cxf.binding.xml.XMLBindingFactory, org.apache.cxf.binding.xml.wsdl11.XMLWSDLExtensionLoader]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-bindings-soap (201) [org.apache.cxf.binding.soap.SoapBindingFactory, org.apache.cxf.binding.soap.SoapTransportFactory]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/blueprint/bindings/soap
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-ws-policy (220) [org.apache.cxf.ws.policy.PolicyEngine, org.apache.cxf.policy.PolicyDataEngine, org.apache.cxf.ws.policy.AssertionBuilderRegistry, org.apache.cxf.ws.policy.PolicyInterceptorProviderRegistry, org.apache.cxf.ws.policy.PolicyBuilder, org.apache.cxf.ws.policy.PolicyAnnotationListener, org.apache.cxf.ws.policy.attachment.ServiceModelPolicyProvider, org.apache.cxf.ws.policy.attachment.external.DomainExpressionBuilderRegistry, org.apache.cxf.ws.policy.attachment.external.EndpointReferenceDomainExpressionBuilder, org.apache.cxf.ws.policy.attachment.external.URIDomainExpressionBuilder, org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider, org.apache.cxf.ws.policy.mtom.MTOMAssertionBuilder, org.apache.cxf.ws.policy.mtom.MTOMPolicyInterceptorProvider]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-transports-http (202) [org.apache.cxf.transport.http.HTTPTransportFactory, org.apache.cxf.transport.http.HTTPWSDLExtensionLoader, org.apache.cxf.transport.http.policy.HTTPClientAssertionBuilder, org.apache.cxf.transport.http.policy.HTTPServerAssertionBuilder, org.apache.cxf.transport.http.policy.NoOpPolicyInterceptorProvider]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/transports/http/configuration
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/blueprint/simple
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-frontend-jaxws (204) [org.apache.cxf.jaxws.context.WebServiceContextResourceResolver]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/blueprint/jaxws
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/blueprint/jaxrs
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/blueprint/jaxrs-client
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/binding/coloc
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-transports-local (216) [org.apache.cxf.transport.local.LocalTransportFactory]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-bindings-object (217) [org.apache.cxf.binding.object.ObjectBindingFactory]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/blueprint/binding/object
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/policy
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://www.w3.org/ns/ws-policy
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://www.w3.org/2006/07/ws-policy
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://schemas.xmlsoap.org/ws/2004/09/policy
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://www.w3.org/2000/09/xmldsig#
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-ws-addr (237) [org.apache.cxf.ws.addressing.policy.AddressingAssertionBuilder, org.apache.cxf.ws.addressing.policy.UsingAddressingAssertionBuilder, org.apache.cxf.ws.addressing.policy.AddressingPolicyInterceptorProvider, org.apache.cxf.ws.addressing.impl.AddressingWSDLExtensionLoader, org.apache.cxf.ws.addressing.WSAddressingFeature$WSAddressingFeatureApplier, org.apache.cxf.ws.addressing.MAPAggregator$MAPAggregatorLoader]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/ws/addressing
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-ws-security (239) [org.apache.cxf.ws.security.policy.WSSecurityPolicyLoader, org.apache.cxf.ws.security.cache.CacheCleanupListener]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-ws-rm (241) [org.apache.cxf.ws.rm.RMManager, org.apache.cxf.ws.rm.policy.RMPolicyInterceptorProvider, org.apache.cxf.ws.rm.policy.RM10AssertionBuilder, org.apache.cxf.ws.rm.policy.RM12AssertionBuilder, org.apache.cxf.ws.rm.policy.WSRMP12PolicyLoader, org.apache.cxf.ws.rm.policy.MC11PolicyLoader, org.apache.cxf.ws.rm.policy.RSPPolicyLoader]
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://cxf.apache.org/ws/rm/manager
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.blueprint.NamespaceHandlerRegisterer register
+信息: Registered blueprint namespace handler for http://schemas.xmlsoap.org/ws/2005/02/rm/policy
+十二月 24, 2019 12:19:53 下午 org.apache.cxf.bus.osgi.CXFExtensionBundleListener addExtensions
+信息: Adding the extensions from bundle org.apache.cxf.cxf-rt-javascript (242) [org.apache.cxf.javascript.JavascriptServerListener]
+十二月 24, 2019 12:19:54 下午 org.pentaho.caching.impl.PentahoCacheManagerFactory$RegistrationHandler$1 onSuccess
+信息: New Caching Service registered
+十二月 24, 2019 12:19:54 下午 org.pentaho.caching.impl.PentahoCacheManagerFactory$RegistrationHandler$1 onSuccess
+信息: New Caching Service registered
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/kettle/data-integration/launcher/../lib/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/kettle/data-integration/plugins/pentaho-big-data-plugin/lib/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+2019/12/24 12:19:55 - Pan - 开始运行.
+2019/12/24 12:19:56 - coffee_lj_product_hsaledetail_modify0_03003_传入变量 - 为了转换解除补丁开始  [coffee_lj_product_hsaledetail_modify0_03003_传入变量]
+Tue Dec 24 12:19:56 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Tue Dec 24 12:19:56 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+十二月 24, 2019 12:19:56 下午 org.apache.cxf.endpoint.ServerImpl initDestination
+信息: Setting the server's publish address to be /lineage
+2019/12/24 12:19:56 - 全量-表输出(product_hsaledetail_modify0).0 - Connected to database [172.16.2.229_sisyphe_coff(test)] (commit=1000)
+十二月 24, 2019 12:19:56 下午 org.apache.cxf.endpoint.ServerImpl initDestination
+信息: Setting the server's publish address to be /i18n
+2019/12/24 12:20:17 - 全量表输入(product_hsaledetail).0 - linenr 50000
+2019/12/24 12:20:17 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 50000
+2019/12/24 12:20:38 - 全量表输入(product_hsaledetail).0 - linenr 100000
+2019/12/24 12:20:39 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 100000
+2019/12/24 12:20:55 - 全量表输入(product_hsaledetail).0 - linenr 150000
+2019/12/24 12:20:55 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 150000
+2019/12/24 12:21:13 - 全量表输入(product_hsaledetail).0 - linenr 200000
+2019/12/24 12:21:15 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 200000
+2019/12/24 12:21:30 - 全量表输入(product_hsaledetail).0 - linenr 250000
+2019/12/24 12:21:32 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 250000
+2019/12/24 12:21:48 - 全量表输入(product_hsaledetail).0 - linenr 300000
+2019/12/24 12:21:51 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 300000
+2019/12/24 12:22:08 - 全量表输入(product_hsaledetail).0 - linenr 350000
+2019/12/24 12:22:13 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 350000
+2019/12/24 12:22:27 - 全量表输入(product_hsaledetail).0 - linenr 400000
+2019/12/24 12:22:31 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 400000
+2019/12/24 12:22:47 - 全量表输入(product_hsaledetail).0 - linenr 450000
+2019/12/24 12:22:52 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 450000
+2019/12/24 12:23:07 - 全量表输入(product_hsaledetail).0 - linenr 500000
+2019/12/24 12:23:08 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 500000
+2019/12/24 12:23:24 - 全量表输入(product_hsaledetail).0 - linenr 550000
+2019/12/24 12:23:25 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 550000
+2019/12/24 12:23:41 - 全量表输入(product_hsaledetail).0 - linenr 600000
+2019/12/24 12:23:45 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 600000
+2019/12/24 12:24:01 - 全量表输入(product_hsaledetail).0 - linenr 650000
+2019/12/24 12:24:05 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 650000
+2019/12/24 12:24:20 - 全量表输入(product_hsaledetail).0 - linenr 700000
+2019/12/24 12:24:23 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 700000
+2019/12/24 12:24:37 - 全量表输入(product_hsaledetail).0 - linenr 750000
+2019/12/24 12:24:41 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 750000
+2019/12/24 12:24:57 - 全量表输入(product_hsaledetail).0 - linenr 800000
+12:24:57,633 ERROR [BlueprintContainerImpl] Unable to start blueprint container for bundle pentaho-marketplace-di due to unresolved dependencies [(objectClass=org.apache.karaf.kar.KarService)]
+java.util.concurrent.TimeoutException
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl$1.run(BlueprintContainerImpl.java:336)
+	at org.apache.aries.blueprint.utils.threading.impl.DiscardableRunnable.run(DiscardableRunnable.java:48)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019/12/24 12:25:01 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 800000
+2019/12/24 12:25:17 - 全量表输入(product_hsaledetail).0 - linenr 850000
+2019/12/24 12:25:21 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 850000
+2019/12/24 12:25:36 - 全量表输入(product_hsaledetail).0 - linenr 900000
+2019/12/24 12:25:40 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 900000
+2019/12/24 12:25:55 - 全量表输入(product_hsaledetail).0 - linenr 950000
+2019/12/24 12:25:58 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 950000
+2019/12/24 12:26:11 - 全量表输入(product_hsaledetail).0 - linenr 1000000
+2019/12/24 12:26:14 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1000000
+2019/12/24 12:26:28 - 全量表输入(product_hsaledetail).0 - linenr 1050000
+2019/12/24 12:26:32 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1050000
+2019/12/24 12:26:47 - 全量表输入(product_hsaledetail).0 - linenr 1100000
+2019/12/24 12:26:51 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1100000
+2019/12/24 12:27:06 - 全量表输入(product_hsaledetail).0 - linenr 1150000
+2019/12/24 12:27:11 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1150000
+2019/12/24 12:27:26 - 全量表输入(product_hsaledetail).0 - linenr 1200000
+2019/12/24 12:27:30 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1200000
+2019/12/24 12:27:44 - 全量表输入(product_hsaledetail).0 - linenr 1250000
+2019/12/24 12:27:47 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1250000
+2019/12/24 12:28:02 - 全量表输入(product_hsaledetail).0 - linenr 1300000
+2019/12/24 12:28:06 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1300000
+2019/12/24 12:28:21 - 全量表输入(product_hsaledetail).0 - linenr 1350000
+2019/12/24 12:28:25 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1350000
+2019/12/24 12:28:40 - 全量表输入(product_hsaledetail).0 - linenr 1400000
+2019/12/24 12:28:44 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1400000
+2019/12/24 12:28:59 - 全量表输入(product_hsaledetail).0 - linenr 1450000
+2019/12/24 12:29:03 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1450000
+2019/12/24 12:29:18 - 全量表输入(product_hsaledetail).0 - linenr 1500000
+2019/12/24 12:29:22 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1500000
+2019/12/24 12:29:36 - 全量表输入(product_hsaledetail).0 - linenr 1550000
+2019/12/24 12:29:39 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1550000
+2019/12/24 12:29:54 - 全量表输入(product_hsaledetail).0 - linenr 1600000
+2019/12/24 12:29:58 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1600000
+2019/12/24 12:30:13 - 全量表输入(product_hsaledetail).0 - linenr 1650000
+2019/12/24 12:30:17 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1650000
+2019/12/24 12:30:31 - 全量表输入(product_hsaledetail).0 - linenr 1700000
+2019/12/24 12:30:36 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1700000
+2019/12/24 12:30:50 - 全量表输入(product_hsaledetail).0 - linenr 1750000
+2019/12/24 12:30:54 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1750000
+2019/12/24 12:31:08 - 全量表输入(product_hsaledetail).0 - linenr 1800000
+2019/12/24 12:31:12 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1800000
+2019/12/24 12:31:28 - 全量表输入(product_hsaledetail).0 - linenr 1850000
+2019/12/24 12:31:31 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1850000
+2019/12/24 12:31:47 - 全量表输入(product_hsaledetail).0 - linenr 1900000
+2019/12/24 12:31:52 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1900000
+2019/12/24 12:32:03 - 全量表输入(product_hsaledetail).0 - linenr 1950000
+2019/12/24 12:32:07 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 1950000
+2019/12/24 12:32:23 - 全量表输入(product_hsaledetail).0 - linenr 2000000
+2019/12/24 12:32:28 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2000000
+2019/12/24 12:32:42 - 全量表输入(product_hsaledetail).0 - linenr 2050000
+2019/12/24 12:32:47 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2050000
+2019/12/24 12:33:02 - 全量表输入(product_hsaledetail).0 - linenr 2100000
+2019/12/24 12:33:05 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2100000
+2019/12/24 12:33:18 - 全量表输入(product_hsaledetail).0 - linenr 2150000
+2019/12/24 12:33:22 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2150000
+2019/12/24 12:33:36 - 全量表输入(product_hsaledetail).0 - linenr 2200000
+2019/12/24 12:33:39 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2200000
+2019/12/24 12:33:55 - 全量表输入(product_hsaledetail).0 - linenr 2250000
+2019/12/24 12:33:59 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2250000
+2019/12/24 12:34:14 - 全量表输入(product_hsaledetail).0 - linenr 2300000
+2019/12/24 12:34:17 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2300000
+2019/12/24 12:34:33 - 全量表输入(product_hsaledetail).0 - linenr 2350000
+2019/12/24 12:34:38 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2350000
+2019/12/24 12:34:51 - 全量表输入(product_hsaledetail).0 - linenr 2400000
+2019/12/24 12:34:55 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2400000
+2019/12/24 12:35:10 - 全量表输入(product_hsaledetail).0 - linenr 2450000
+2019/12/24 12:35:14 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2450000
+2019/12/24 12:35:29 - 全量表输入(product_hsaledetail).0 - linenr 2500000
+2019/12/24 12:35:33 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2500000
+2019/12/24 12:35:49 - 全量表输入(product_hsaledetail).0 - linenr 2550000
+2019/12/24 12:35:53 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2550000
+2019/12/24 12:36:08 - 全量表输入(product_hsaledetail).0 - linenr 2600000
+2019/12/24 12:36:13 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2600000
+2019/12/24 12:36:28 - 全量表输入(product_hsaledetail).0 - linenr 2650000
+2019/12/24 12:36:33 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2650000
+2019/12/24 12:36:47 - 全量表输入(product_hsaledetail).0 - linenr 2700000
+2019/12/24 12:36:51 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2700000
+2019/12/24 12:37:05 - 全量表输入(product_hsaledetail).0 - linenr 2750000
+2019/12/24 12:37:10 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2750000
+2019/12/24 12:37:23 - 全量表输入(product_hsaledetail).0 - linenr 2800000
+2019/12/24 12:37:26 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2800000
+2019/12/24 12:37:40 - 全量表输入(product_hsaledetail).0 - linenr 2850000
+2019/12/24 12:37:46 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2850000
+2019/12/24 12:38:00 - 全量表输入(product_hsaledetail).0 - linenr 2900000
+2019/12/24 12:38:04 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2900000
+2019/12/24 12:38:19 - 全量表输入(product_hsaledetail).0 - linenr 2950000
+2019/12/24 12:38:23 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 2950000
+2019/12/24 12:38:38 - 全量表输入(product_hsaledetail).0 - linenr 3000000
+2019/12/24 12:38:43 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3000000
+2019/12/24 12:38:56 - 全量表输入(product_hsaledetail).0 - linenr 3050000
+2019/12/24 12:39:00 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3050000
+2019/12/24 12:39:16 - 全量表输入(product_hsaledetail).0 - linenr 3100000
+2019/12/24 12:39:20 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3100000
+2019/12/24 12:39:34 - 全量表输入(product_hsaledetail).0 - linenr 3150000
+2019/12/24 12:39:39 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3150000
+2019/12/24 12:39:53 - 全量表输入(product_hsaledetail).0 - linenr 3200000
+2019/12/24 12:39:56 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3200000
+2019/12/24 12:40:14 - 全量表输入(product_hsaledetail).0 - linenr 3250000
+2019/12/24 12:40:17 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3250000
+2019/12/24 12:40:32 - 全量表输入(product_hsaledetail).0 - linenr 3300000
+2019/12/24 12:40:34 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3300000
+2019/12/24 12:40:52 - 全量表输入(product_hsaledetail).0 - linenr 3350000
+2019/12/24 12:40:56 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3350000
+2019/12/24 12:41:11 - 全量表输入(product_hsaledetail).0 - linenr 3400000
+2019/12/24 12:41:16 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3400000
+2019/12/24 12:41:31 - 全量表输入(product_hsaledetail).0 - linenr 3450000
+2019/12/24 12:41:35 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3450000
+2019/12/24 12:41:50 - 全量表输入(product_hsaledetail).0 - linenr 3500000
+2019/12/24 12:41:55 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3500000
+2019/12/24 12:42:10 - 全量表输入(product_hsaledetail).0 - linenr 3550000
+2019/12/24 12:42:14 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3550000
+2019/12/24 12:42:29 - 全量表输入(product_hsaledetail).0 - linenr 3600000
+2019/12/24 12:42:34 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3600000
+2019/12/24 12:42:50 - 全量表输入(product_hsaledetail).0 - linenr 3650000
+2019/12/24 12:42:53 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3650000
+2019/12/24 12:43:09 - 全量表输入(product_hsaledetail).0 - linenr 3700000
+2019/12/24 12:43:13 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3700000
+2019/12/24 12:43:28 - 全量表输入(product_hsaledetail).0 - linenr 3750000
+2019/12/24 12:43:32 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3750000
+2019/12/24 12:43:48 - 全量表输入(product_hsaledetail).0 - linenr 3800000
+2019/12/24 12:43:51 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3800000
+2019/12/24 12:44:06 - 全量表输入(product_hsaledetail).0 - linenr 3850000
+2019/12/24 12:44:09 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3850000
+2019/12/24 12:44:24 - 全量表输入(product_hsaledetail).0 - linenr 3900000
+2019/12/24 12:44:28 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3900000
+2019/12/24 12:44:41 - 全量表输入(product_hsaledetail).0 - linenr 3950000
+2019/12/24 12:44:46 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 3950000
+2019/12/24 12:45:02 - 全量表输入(product_hsaledetail).0 - linenr 4000000
+2019/12/24 12:45:06 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4000000
+2019/12/24 12:45:23 - 全量表输入(product_hsaledetail).0 - linenr 4050000
+2019/12/24 12:45:26 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4050000
+2019/12/24 12:45:41 - 全量表输入(product_hsaledetail).0 - linenr 4100000
+2019/12/24 12:45:45 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4100000
+2019/12/24 12:45:59 - 全量表输入(product_hsaledetail).0 - linenr 4150000
+2019/12/24 12:46:03 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4150000
+2019/12/24 12:46:19 - 全量表输入(product_hsaledetail).0 - linenr 4200000
+2019/12/24 12:46:22 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4200000
+2019/12/24 12:46:37 - 全量表输入(product_hsaledetail).0 - linenr 4250000
+2019/12/24 12:46:41 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4250000
+2019/12/24 12:46:55 - 全量表输入(product_hsaledetail).0 - linenr 4300000
+2019/12/24 12:47:00 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4300000
+2019/12/24 12:47:13 - 全量表输入(product_hsaledetail).0 - linenr 4350000
+2019/12/24 12:47:18 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4350000
+2019/12/24 12:47:33 - 全量表输入(product_hsaledetail).0 - linenr 4400000
+2019/12/24 12:47:36 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4400000
+2019/12/24 12:47:50 - 全量表输入(product_hsaledetail).0 - linenr 4450000
+2019/12/24 12:47:54 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4450000
+2019/12/24 12:48:11 - 全量表输入(product_hsaledetail).0 - linenr 4500000
+2019/12/24 12:48:14 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4500000
+2019/12/24 12:48:31 - 全量表输入(product_hsaledetail).0 - linenr 4550000
+2019/12/24 12:48:35 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4550000
+2019/12/24 12:48:50 - 全量表输入(product_hsaledetail).0 - linenr 4600000
+2019/12/24 12:48:54 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4600000
+2019/12/24 12:49:08 - 全量表输入(product_hsaledetail).0 - linenr 4650000
+2019/12/24 12:49:12 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4650000
+2019/12/24 12:49:25 - 全量表输入(product_hsaledetail).0 - linenr 4700000
+2019/12/24 12:49:29 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4700000
+2019/12/24 12:49:44 - 全量表输入(product_hsaledetail).0 - linenr 4750000
+2019/12/24 12:49:49 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4750000
+2019/12/24 12:50:11 - 全量表输入(product_hsaledetail).0 - linenr 4800000
+2019/12/24 12:50:14 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4800000
+2019/12/24 12:50:28 - 全量表输入(product_hsaledetail).0 - linenr 4850000
+2019/12/24 12:50:31 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4850000
+2019/12/24 12:50:45 - 全量表输入(product_hsaledetail).0 - linenr 4900000
+2019/12/24 12:50:49 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4900000
+2019/12/24 12:51:04 - 全量表输入(product_hsaledetail).0 - linenr 4950000
+2019/12/24 12:51:07 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 4950000
+2019/12/24 12:51:20 - 全量表输入(product_hsaledetail).0 - linenr 5000000
+2019/12/24 12:51:24 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5000000
+2019/12/24 12:51:40 - 全量表输入(product_hsaledetail).0 - linenr 5050000
+2019/12/24 12:51:44 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5050000
+2019/12/24 12:52:02 - 全量表输入(product_hsaledetail).0 - linenr 5100000
+2019/12/24 12:52:06 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5100000
+2019/12/24 12:52:22 - 全量表输入(product_hsaledetail).0 - linenr 5150000
+2019/12/24 12:52:26 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5150000
+2019/12/24 12:52:42 - 全量表输入(product_hsaledetail).0 - linenr 5200000
+2019/12/24 12:52:45 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5200000
+2019/12/24 12:52:59 - 全量表输入(product_hsaledetail).0 - linenr 5250000
+2019/12/24 12:53:03 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5250000
+2019/12/24 12:53:18 - 全量表输入(product_hsaledetail).0 - linenr 5300000
+2019/12/24 12:53:23 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5300000
+2019/12/24 12:53:39 - 全量表输入(product_hsaledetail).0 - linenr 5350000
+2019/12/24 12:53:44 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5350000
+2019/12/24 12:53:58 - 全量表输入(product_hsaledetail).0 - linenr 5400000
+2019/12/24 12:54:02 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5400000
+2019/12/24 12:54:18 - 全量表输入(product_hsaledetail).0 - linenr 5450000
+2019/12/24 12:54:22 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5450000
+2019/12/24 12:54:39 - 全量表输入(product_hsaledetail).0 - linenr 5500000
+2019/12/24 12:54:43 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5500000
+2019/12/24 12:54:59 - 全量表输入(product_hsaledetail).0 - linenr 5550000
+2019/12/24 12:55:03 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5550000
+2019/12/24 12:55:19 - 全量表输入(product_hsaledetail).0 - linenr 5600000
+2019/12/24 12:55:23 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5600000
+2019/12/24 12:55:40 - 全量表输入(product_hsaledetail).0 - linenr 5650000
+2019/12/24 12:55:44 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5650000
+2019/12/24 12:56:01 - 全量表输入(product_hsaledetail).0 - linenr 5700000
+2019/12/24 12:56:05 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5700000
+2019/12/24 12:56:22 - 全量表输入(product_hsaledetail).0 - linenr 5750000
+2019/12/24 12:56:25 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5750000
+2019/12/24 12:56:41 - 全量表输入(product_hsaledetail).0 - linenr 5800000
+2019/12/24 12:56:45 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5800000
+2019/12/24 12:57:01 - 全量表输入(product_hsaledetail).0 - linenr 5850000
+2019/12/24 12:57:05 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5850000
+2019/12/24 12:57:22 - 全量表输入(product_hsaledetail).0 - linenr 5900000
+2019/12/24 12:57:26 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5900000
+2019/12/24 12:57:42 - 全量表输入(product_hsaledetail).0 - linenr 5950000
+2019/12/24 12:57:46 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 5950000
+2019/12/24 12:58:02 - 全量表输入(product_hsaledetail).0 - linenr 6000000
+2019/12/24 12:58:06 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6000000
+2019/12/24 12:58:23 - 全量表输入(product_hsaledetail).0 - linenr 6050000
+2019/12/24 12:58:27 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6050000
+2019/12/24 12:58:42 - 全量表输入(product_hsaledetail).0 - linenr 6100000
+2019/12/24 12:58:46 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6100000
+2019/12/24 12:59:02 - 全量表输入(product_hsaledetail).0 - linenr 6150000
+2019/12/24 12:59:06 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6150000
+2019/12/24 12:59:21 - 全量表输入(product_hsaledetail).0 - linenr 6200000
+2019/12/24 12:59:25 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6200000
+2019/12/24 12:59:40 - 全量表输入(product_hsaledetail).0 - linenr 6250000
+2019/12/24 12:59:44 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6250000
+2019/12/24 13:00:01 - 全量表输入(product_hsaledetail).0 - linenr 6300000
+2019/12/24 13:00:06 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6300000
+2019/12/24 13:00:20 - 全量表输入(product_hsaledetail).0 - linenr 6350000
+2019/12/24 13:00:24 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6350000
+2019/12/24 13:00:41 - 全量表输入(product_hsaledetail).0 - linenr 6400000
+2019/12/24 13:00:45 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6400000
+2019/12/24 13:00:59 - 全量表输入(product_hsaledetail).0 - linenr 6450000
+2019/12/24 13:01:02 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6450000
+2019/12/24 13:01:15 - 全量表输入(product_hsaledetail).0 - linenr 6500000
+2019/12/24 13:01:19 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6500000
+2019/12/24 13:01:33 - 全量表输入(product_hsaledetail).0 - linenr 6550000
+2019/12/24 13:01:37 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6550000
+2019/12/24 13:01:50 - 全量表输入(product_hsaledetail).0 - linenr 6600000
+2019/12/24 13:01:53 - 全量表输入(product_hsaledetail).0 - Finished reading query, closing connection.
+2019/12/24 13:01:53 - 全量表输入(product_hsaledetail).0 - 完成处理 (I=6605588, O=0, R=0, W=6605588, U=0, E=0)
+2019/12/24 13:01:56 - 全量-表输出(product_hsaledetail_modify0).0 - linenr 6600000
+2019/12/24 13:01:58 - 全量-表输出(product_hsaledetail_modify0).0 - 完成处理 (I=0, O=6605588, R=6605588, W=6605588, U=0, E=0)
+2019/12/24 13:01:58 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2019/12/24 13:01:58 - Pan - 完成!
+2019/12/24 13:01:58 - Pan - 开始=2019/12/24 12:19:55.706, 停止=2019/12/24 13:01:58.330
+2019/12/24 13:01:58 - Pan - Processing ended after 42 minutes and 2 seconds (2522 seconds total).
+2019/12/24 13:01:58 - coffee_lj_product_hsaledetail_modify0_03003_传入变量 -  
+2019/12/24 13:01:58 - coffee_lj_product_hsaledetail_modify0_03003_传入变量 - 进程 全量表输入(product_hsaledetail).0 成功结束, 处理了 6605588 行. ( 2619 行/秒)
+2019/12/24 13:01:58 - coffee_lj_product_hsaledetail_modify0_03003_传入变量 - 进程 全量-表输出(product_hsaledetail_modify0).0 成功结束, 处理了 6605588 行. ( 2619 行/秒)

@@ -1,0 +1,4 @@
+truncate table sisyphe_dm.day_coffee_cargo_amount_money;
+truncate table sisyphe_dm.day_coffee_cargo_amount_money_auxiliary;
+truncate table sisyphe_edw.offset_cargo_money_amount;
+truncate table sisyphe_edw.coffset_cargo_money_amount_end;

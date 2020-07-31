@@ -1,0 +1,21 @@
+delete from sisyphe_coff.sisyphe_coff_product_sale_pay where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_product_sale_station where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_sale_set_meal  where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_sale_index_passenger_flow where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_sale_index_pay where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_sale_index_total_amount where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_sale_index_takeout where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_sale_index_card_recharge where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_sale_index_all where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_sale_index_all_sum where create_date='2020-06-21';
+
+delete from sisyphe_coff.sisyphe_coff_sale_log where create_date='2020-06-21';

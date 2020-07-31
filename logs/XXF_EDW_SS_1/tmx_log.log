@@ -1,0 +1,258 @@
+#######################################################################
+WARNING:  no libwebkitgtk-1.0 detected, some features will be unavailable
+    Consider installing the package with apt-get or yum.
+    e.g. 'sudo apt-get install libwebkitgtk-1.0-0'
+#######################################################################
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=2560m; support was removed in 8.0
+16:34:26,458 INFO  [KarafBoot] Checking to see if org.pentaho.clean.karaf.cache is enabled
+16:34:26,560 INFO  [KarafInstance] 
+*******************************************************************************
+*** Karaf Instance Number: 1 at /usr/local/kettle/data-integration/./system ***
+***   /karaf/caches/pan/data-2                                              ***
+*** FastBin Provider Port:52901                                             ***
+*** Karaf Port:8802                                                         ***
+*** OSGI Service Port:9051                                                  ***
+*******************************************************************************
+十二月 20, 2019 4:34:27 下午 org.apache.karaf.main.Main$KarafLockCallback lockAquired
+信息: Lock acquired. Setting startlevel to 100
+Updating configuration from org.apache.aries.rsa.provider.fastbin.cfg
+Updating configuration from org.apache.karaf.shell.cfg
+Updating configuration from org.ops4j.pax.web.cfg
+ERROR: Bundle org.apache.karaf.features.command [33] Error starting mvn:org.apache.karaf.features/org.apache.karaf.features.command/3.0.3 (org.osgi.framework.BundleException: Unresolved constraint in bundle org.apache.karaf.features.command [33]: Unable to resolve 33.0: missing requirement [33.0] osgi.wiring.package; (&(osgi.wiring.package=org.apache.karaf.shell.commands)(version>=3.0.0)(!(version>=4.0.0))))
+org.osgi.framework.BundleException: Unresolved constraint in bundle org.apache.karaf.features.command [33]: Unable to resolve 33.0: missing requirement [33.0] osgi.wiring.package; (&(osgi.wiring.package=org.apache.karaf.shell.commands)(version>=3.0.0)(!(version>=4.0.0)))
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:3974)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2037)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1291)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:304)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR: Bundle org.apache.karaf.config.command [60] Error starting mvn:org.apache.karaf.config/org.apache.karaf.config.command/3.0.3 (org.osgi.framework.BundleException: Unresolved constraint in bundle org.apache.karaf.config.command [60]: Unable to resolve 60.0: missing requirement [60.0] osgi.wiring.package; (&(osgi.wiring.package=org.apache.felix.service.command)(version>=0.12.0)(!(version>=1.0.0))))
+org.osgi.framework.BundleException: Unresolved constraint in bundle org.apache.karaf.config.command [60]: Unable to resolve 60.0: missing requirement [60.0] osgi.wiring.package; (&(osgi.wiring.package=org.apache.felix.service.command)(version>=0.12.0)(!(version>=1.0.0)))
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:3974)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2037)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1291)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:304)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR: Bundle pentaho-osgi-utils-impl [52] Error starting mvn:pentaho/pentaho-osgi-utils-impl/8.2.0.0-342 (org.osgi.framework.BundleException: Unresolved constraint in bundle pentaho-osgi-utils-impl [52]: Unable to resolve 52.0: missing requirement [52.0] osgi.wiring.package; (&(osgi.wiring.package=org.apache.karaf.bundle.core)(version>=3.0.0)(!(version>=4.0.0))))
+org.osgi.framework.BundleException: Unresolved constraint in bundle pentaho-osgi-utils-impl [52]: Unable to resolve 52.0: missing requirement [52.0] osgi.wiring.package; (&(osgi.wiring.package=org.apache.karaf.bundle.core)(version>=3.0.0)(!(version>=4.0.0)))
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:3974)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2037)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1291)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:304)
+	at java.lang.Thread.run(Thread.java:745)
+十二月 20, 2019 4:34:29 下午 org.pentaho.caching.impl.PentahoCacheManagerFactory$RegistrationHandler$1 onSuccess
+信息: New Caching Service registered
+16:34:29,370 ERROR [KarafLifecycleListener] Error in Feature Watcher
+org.pentaho.osgi.api.IKarafFeatureWatcher$FeatureWatcherException: No IKarafFeatureWatcher service available
+	at org.pentaho.di.osgi.KarafLifecycleListener$2.run(KarafLifecycleListener.java:141)
+	at java.lang.Thread.run(Thread.java:745)
+16:34:29,372 ERROR [KarafLifecycleListener] Error in Blueprint Watcher
+org.pentaho.osgi.api.IKarafBlueprintWatcher$BlueprintWatcherException: No IKarafBlueprintWatcher service available
+	at org.pentaho.di.osgi.KarafLifecycleListener$2.run(KarafLifecycleListener.java:157)
+	at java.lang.Thread.run(Thread.java:745)
+2019/12/20 16:34:29 - Pan - 开始运行.
+2019/12/20 16:34:29 - coffee_tmx_sale_index_all_rate_04000_全量 - 为了转换解除补丁开始  [coffee_tmx_sale_index_all_rate_04000_全量]
+16:34:29,965 ERROR [BootFeaturesInstaller] Error installing boot features
+java.lang.Exception: Could not start bundle mvn:pentaho/pentaho-osgi-utils-impl/8.2.0.0-342 in feature(s) pentaho-big-data-plugin-base-1.0, pentaho-base-1.0: Unresolved constraint in bundle pentaho-osgi-utils-impl [52]: Unable to resolve 52.0: missing requirement [52.0] osgi.wiring.package; (&(osgi.wiring.package=org.apache.karaf.bundle.core)(version>=3.0.0)(!(version>=4.0.0)))
+	at org.apache.karaf.features.internal.FeaturesServiceImpl.startBundle(FeaturesServiceImpl.java:504)
+	at org.apache.karaf.features.internal.FeaturesServiceImpl.installFeatures(FeaturesServiceImpl.java:459)
+	at org.apache.karaf.features.internal.BootFeaturesInstaller.installBootFeatures(BootFeaturesInstaller.java:92)
+	at org.apache.karaf.features.internal.BootFeaturesInstaller$1.run(BootFeaturesInstaller.java:71)
+Caused by: org.osgi.framework.BundleException: Unresolved constraint in bundle pentaho-osgi-utils-impl [52]: Unable to resolve 52.0: missing requirement [52.0] osgi.wiring.package; (&(osgi.wiring.package=org.apache.karaf.bundle.core)(version>=3.0.0)(!(version>=4.0.0)))
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:3974)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2037)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:955)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:942)
+	at org.apache.karaf.features.internal.FeaturesServiceImpl.startBundle(FeaturesServiceImpl.java:501)
+	... 3 more
+2019/12/20 16:34:30 - MySQL 批量加载.0 - Creating fifo using this command - null
+2019/12/20 16:34:30 - MySQL 批量加载.0 - Setting FIFO file permissings using this command - null
+2019/12/20 16:34:30 - MySQL 批量加载.0 - Connected to null
+2019/12/20 16:34:30 - MySQL 批量加载.0 - Starting the null bulk Load in a separate thread - LOAD DATA LOCAL INFILE '/tmp/fifo' INTO TABLE sisyphe_coff_sale_index_all_rate FIELDS TERMINATED BY '\t' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '\\' (station_code,create_date,weekday_name,week_num,final_month,final_year_month,quarter,year,day,day_name,index_type,index_type_value,date_wow,index_type_value_wow,date_yoy,index_type_value_yoy);
+2019/12/20 16:34:30 - MySQL 批量加载.0 - Opening fifo /tmp/fifo for writing.
+ERROR: Bundle pdi-osgi-bridge-activator [58] EventDispatcher: Error during dispatch. (java.lang.NullPointerException)
+java.lang.NullPointerException
+	at org.pentaho.di.osgi.OSGIPluginTracker.serviceChanged(OSGIPluginTracker.java:359)
+	at org.pentaho.di.osgi.service.tracker.OSGIServiceTracker.addingService(OSGIServiceTracker.java:92)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:932)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:864)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:894)
+	at org.apache.felix.framework.util.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:932)
+	at org.apache.felix.framework.util.EventDispatcher.fireEventImmediately(EventDispatcher.java:793)
+	at org.apache.felix.framework.util.EventDispatcher.fireServiceEvent(EventDispatcher.java:543)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4419)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3423)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:346)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerService(BlueprintContainerImpl.java:453)
+	at org.apache.aries.blueprint.container.ServiceRecipe.register(ServiceRecipe.java:192)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerServices(BlueprintContainerImpl.java:704)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.doRun(BlueprintContainerImpl.java:379)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.run(BlueprintContainerImpl.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.aries.blueprint.container.ExecutorServiceWrapper.run(ExecutorServiceWrapper.java:106)
+	at org.apache.aries.blueprint.utils.threading.impl.DiscardableRunnable.run(DiscardableRunnable.java:48)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR: Bundle pdi-osgi-bridge-activator [58] EventDispatcher: Error during dispatch. (java.lang.NullPointerException)
+java.lang.NullPointerException
+	at org.pentaho.di.osgi.OSGIPluginTracker.serviceChanged(OSGIPluginTracker.java:359)
+	at org.pentaho.di.osgi.service.tracker.OSGIServiceTracker.addingService(OSGIServiceTracker.java:92)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:932)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:864)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:894)
+	at org.apache.felix.framework.util.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:932)
+	at org.apache.felix.framework.util.EventDispatcher.fireEventImmediately(EventDispatcher.java:793)
+	at org.apache.felix.framework.util.EventDispatcher.fireServiceEvent(EventDispatcher.java:543)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4419)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3423)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:346)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerService(BlueprintContainerImpl.java:453)
+	at org.apache.aries.blueprint.container.ServiceRecipe.register(ServiceRecipe.java:192)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerServices(BlueprintContainerImpl.java:704)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.doRun(BlueprintContainerImpl.java:379)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.run(BlueprintContainerImpl.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.aries.blueprint.container.ExecutorServiceWrapper.run(ExecutorServiceWrapper.java:106)
+	at org.apache.aries.blueprint.utils.threading.impl.DiscardableRunnable.run(DiscardableRunnable.java:48)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019/12/20 16:35:56 - 表输入.0 - linenr 50000
+ERROR: Bundle pdi-osgi-bridge-activator [58] EventDispatcher: Error during dispatch. (java.lang.NullPointerException)
+java.lang.NullPointerException
+	at org.pentaho.di.osgi.OSGIPluginTracker.serviceChanged(OSGIPluginTracker.java:359)
+	at org.pentaho.di.osgi.service.tracker.OSGIServiceTracker.addingService(OSGIServiceTracker.java:92)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:932)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:864)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:894)
+	at org.apache.felix.framework.util.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:932)
+	at org.apache.felix.framework.util.EventDispatcher.fireEventImmediately(EventDispatcher.java:793)
+	at org.apache.felix.framework.util.EventDispatcher.fireServiceEvent(EventDispatcher.java:543)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4419)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3423)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:346)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerService(BlueprintContainerImpl.java:453)
+	at org.apache.aries.blueprint.container.ServiceRecipe.register(ServiceRecipe.java:192)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerServices(BlueprintContainerImpl.java:704)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.doRun(BlueprintContainerImpl.java:379)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.run(BlueprintContainerImpl.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.aries.blueprint.container.ExecutorServiceWrapper.run(ExecutorServiceWrapper.java:106)
+	at org.apache.aries.blueprint.utils.threading.impl.DiscardableRunnable.run(DiscardableRunnable.java:48)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR: Bundle pdi-osgi-bridge-activator [58] EventDispatcher: Error during dispatch. (java.lang.NullPointerException)
+java.lang.NullPointerException
+	at org.pentaho.di.osgi.OSGIPluginTracker.serviceChanged(OSGIPluginTracker.java:359)
+	at org.pentaho.di.osgi.service.tracker.OSGIServiceTracker.addingService(OSGIServiceTracker.java:92)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:932)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:864)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:894)
+	at org.apache.felix.framework.util.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:932)
+	at org.apache.felix.framework.util.EventDispatcher.fireEventImmediately(EventDispatcher.java:793)
+	at org.apache.felix.framework.util.EventDispatcher.fireServiceEvent(EventDispatcher.java:543)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4419)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3423)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:346)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerService(BlueprintContainerImpl.java:453)
+	at org.apache.aries.blueprint.container.ServiceRecipe.register(ServiceRecipe.java:192)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerServices(BlueprintContainerImpl.java:704)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.doRun(BlueprintContainerImpl.java:379)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.run(BlueprintContainerImpl.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.aries.blueprint.container.ExecutorServiceWrapper.run(ExecutorServiceWrapper.java:106)
+	at org.apache.aries.blueprint.utils.threading.impl.DiscardableRunnable.run(DiscardableRunnable.java:48)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR: Bundle pdi-osgi-bridge-activator [58] EventDispatcher: Error during dispatch. (java.lang.NullPointerException)
+java.lang.NullPointerException
+	at org.pentaho.di.osgi.OSGIPluginTracker.serviceChanged(OSGIPluginTracker.java:359)
+	at org.pentaho.di.osgi.service.tracker.OSGIServiceTracker.addingService(OSGIServiceTracker.java:92)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:932)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:864)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:894)
+	at org.apache.felix.framework.util.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:932)
+	at org.apache.felix.framework.util.EventDispatcher.fireEventImmediately(EventDispatcher.java:793)
+	at org.apache.felix.framework.util.EventDispatcher.fireServiceEvent(EventDispatcher.java:543)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4419)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3423)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:346)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerService(BlueprintContainerImpl.java:453)
+	at org.apache.aries.blueprint.container.ServiceRecipe.register(ServiceRecipe.java:192)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.registerServices(BlueprintContainerImpl.java:704)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.doRun(BlueprintContainerImpl.java:379)
+	at org.apache.aries.blueprint.container.BlueprintContainerImpl.run(BlueprintContainerImpl.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.aries.blueprint.container.ExecutorServiceWrapper.run(ExecutorServiceWrapper.java:106)
+	at org.apache.aries.blueprint.utils.threading.impl.DiscardableRunnable.run(DiscardableRunnable.java:48)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2019/12/20 16:37:50 - 表输入.0 - linenr 100000
+2019/12/20 16:40:10 - 表输入.0 - linenr 150000
+2019/12/20 16:46:02 - 表输入.0 - linenr 200000
+2019/12/20 16:53:31 - 表输入.0 - linenr 250000
+2019/12/20 17:01:16 - 表输入.0 - linenr 300000
+2019/12/20 17:09:51 - 表输入.0 - linenr 350000
+2019/12/20 17:18:31 - 表输入.0 - linenr 400000
+2019/12/20 17:27:21 - 表输入.0 - linenr 450000
+2019/12/20 17:36:46 - 表输入.0 - linenr 500000
+2019/12/20 17:46:15 - 表输入.0 - linenr 550000
+2019/12/20 17:56:03 - 表输入.0 - linenr 600000
+2019/12/20 18:05:51 - 表输入.0 - linenr 650000
+2019/12/20 18:15:48 - 表输入.0 - linenr 700000
+2019/12/20 18:26:01 - 表输入.0 - linenr 750000
+2019/12/20 18:36:20 - 表输入.0 - linenr 800000
+2019/12/20 18:46:42 - 表输入.0 - linenr 850000
+2019/12/20 18:57:12 - 表输入.0 - linenr 900000
+2019/12/20 19:07:35 - 表输入.0 - linenr 950000
+2019/12/20 19:18:43 - 表输入.0 - linenr 1000000
+2019/12/20 19:30:23 - 表输入.0 - linenr 1050000
+2019/12/20 19:42:03 - 表输入.0 - linenr 1100000
+2019/12/20 19:53:37 - 表输入.0 - linenr 1150000
+2019/12/20 19:58:07 - 表输入.0 - Finished reading query, closing connection.
+2019/12/20 19:58:07 - 表输入.0 - 完成处理 (I=1169347, O=0, R=0, W=1169347, U=0, E=0)
+2019/12/20 20:18:43 - MySQL 批量加载.0 - 完成处理 (I=0, O=1169347, R=1169347, W=1169347, U=0, E=0)
+2019/12/20 20:18:43 - Pan - 完成!
+2019/12/20 20:18:43 - Pan - 开始=2019/12/20 16:34:29.402, 停止=2019/12/20 20:18:43.230
+2019/12/20 20:18:43 - Pan - Processing ended after 3 hours, 44 minutes and 13 seconds (13453 seconds total).
+2019/12/20 20:18:43 - coffee_tmx_sale_index_all_rate_04000_全量 -  
+2019/12/20 20:18:43 - coffee_tmx_sale_index_all_rate_04000_全量 - 进程 表输入.0 成功结束, 处理了 1169347 行. ( 86 行/秒)
+2019/12/20 20:18:43 - coffee_tmx_sale_index_all_rate_04000_全量 - 进程 MySQL 批量加载.0 成功结束, 处理了 1169347 行. ( 86 行/秒)
