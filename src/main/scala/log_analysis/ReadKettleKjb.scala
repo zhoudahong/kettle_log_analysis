@@ -199,7 +199,8 @@ object ReadKettleKjb {
     val filePath = FOLDER_NAME + fileName
     val result = spark.read.format("com.databricks.spark.xml")
       .option("rowTag", "transformation")
-      //.schema(schema)
+      //.schema(schema) //不指定schema的话，spark会自动推断。
+      // 若报错，可参考https://blog.csdn.net/zpf336/article/details/88827081?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522159615680519725219951327%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=159615680519725219951327&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_default-2-88827081.pc_v2_rank_blog_default&utm_term=spark%E8%AF%BB%E5%8F%96xml%E6%8A%A5%E9%94%99&spm=1018.2118.3001.4187
       .load(filePath) //指定xml文件路径
       /**
        * jobName对应start_execution路径
@@ -240,10 +241,6 @@ object ReadKettleKjb {
       .select("jobName", "ktrName", "hop.from", "hop.to")
       .withColumnRenamed("from", "from_table") //  重命名一下from列名，避免和sql语句关键字冲突。
       .withColumnRenamed("to", "to_table") //  重命名一下to列名，避免和sql语句关键字冲突。
-
-    //    println("当前ktr：" + filePath)
-    //    from_tp_df.show(100, false)
-
     from_tp_df.createTempView("from_tp_df")
 
 
